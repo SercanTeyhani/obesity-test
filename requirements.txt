@@ -1,7 +1,6 @@
 pynndescent==0.5.13
 python-dateutil==2.9.0.post0
 pytz==2025.1
-pywin32==308
 referencing==0.36.2
 requests==2.32.3
 rich==13.9.4
