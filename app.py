@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy
 import pickle
 import streamlit as st
 from sklearn.preprocessing import LabelEncoder
