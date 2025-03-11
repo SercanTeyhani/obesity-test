@@ -2,3 +2,4 @@ scikit-learn==1.6.1
 scipy==1.15.2
 streamlit==1.42.2
 tokenizers==0.21.0
+pandas==2.2.3
