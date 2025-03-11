@@ -1,14 +1,16 @@
 import pandas as pd
-import joblib
+import pickle
 import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 
-# Modeli yükle
 try:
-    model = joblib.load('Obesity_logistic_regression_model.pkl')
+    with open('obesity_logistic_regression_model.pkl', 'rb') as f:
+        model = pickle.load(f)
+    st.success("Model başarıyla yüklendi!")
 except FileNotFoundError:
-    st.error("Model dosyası bulunamadı. Lütfen 'Obesity_logistic_regression_model.pkl' dosyasını kontrol edin.")
-    st.stop()
+    st.error("Model dosyası bulunamadı. Dosyanın mevcut olduğundan emin ol.")
+except Exception as e:
+    st.error(f"Model yüklenirken bir hata oluştu: {e}")
 
 # Başlık
 st.title('Obezite Tahmin Uygulaması')
