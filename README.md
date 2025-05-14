@@ -4,6 +4,13 @@ This project aims to predict obesity levels based on individuals' health metrics
 
 ---
 
+## 🌐 Live Demo
+
+🖥️ Try the application here:  
+👉 [https://obesity-test.streamlit.app/](https://obesity-test.streamlit.app/)
+
+---
+
 ## 📌 Project Workflow
 
 ### **1. Data Preprocessing**
