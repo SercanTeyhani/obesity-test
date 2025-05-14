@@ -50,6 +50,6 @@ This project aims to predict obesity levels based on individuals' health metrics
 - **Python**: Data manipulation and modeling  
 - **Pandas / NumPy**: Data preprocessing  
 - **Matplotlib / Seaborn**: Visualizations  
-- **Scikit-learn**: Model building, scaling, evaluation  
+- **Scikit-learn**: Model building, scaling, evaluation, Confusion matrix & classification metrics, Feature importance analysis  
 - **Joblib**: Model persistence  
 - **Streamlit**: Web deployment interface
