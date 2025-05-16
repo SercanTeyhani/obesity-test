@@ -65,7 +65,8 @@ This project predicts obesity levels using machine learning, deploying the model
 ---
 ## 6. Model Retraining
 
-The model was retrained to improve performance and ensure balanced class handling.
+- The model was retrained to improve performance and ensure balanced class handling.
+
 ---
 ### **7. Model Saving**
 - Saved the trained model using **joblib** for later use in the Streamlit app.
