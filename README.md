@@ -65,17 +65,10 @@ This project predicts obesity levels using machine learning, deploying the model
 - Visualized feature importance using SHAP summary plots.
 
 ---
+## 6. Model Retraining
 
-## 6. Model Saving and Deployment
-
-- Saved the trained model with `joblib`.
-- Developed a Streamlit web app that:
-  - Accepts user inputs interactively
-  - Predicts obesity level instantly
-  - Provides an intuitive UI for ease of use
-
+The model was retrained to improve performance and ensure balanced class handling.
 ---
-
 ### **7. Model Saving**
 - Saved the trained model using **joblib** for later use in the Streamlit app.
 
