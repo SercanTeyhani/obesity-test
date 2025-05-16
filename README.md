@@ -17,29 +17,64 @@ This project aims to predict obesity levels based on individuals' health metrics
 
 ## 📌 Project Workflow
 
-### **1. Data Preprocessing**
-- Verified dataset integrity and confirmed that the data was **balanced** across all obesity categories.
-- Handled categorical values using **Label Encoding**.
+# Obesity Prediction Using Machine Learning
 
-### **2. Feature Engineering**
-- Created a new feature: **BMI (Body Mass Index)** using the formula `BMI = Weight / (Height^2)`, which is a strong indicator of obesity.
+---
 
-### **3. Train-Test Split**
-- Split the dataset into **80% training** and **20% testing** subsets using `train_test_split`.
+## 1. Project Overview
 
-### **4. Feature Scaling**
-- Applied **StandardScaler** to normalize input features, improving model performance.
+This project predicts obesity levels using machine learning, deploying the model as a real-time web application.
 
-### **5. Model Building: Logistic Regression**
-- Trained a **Logistic Regression** model using:
-  - `newton-cg` solver
-  - `class_weight='balanced'` to handle any potential class imbalance
+---
 
-### **6. Model Evaluation**
-- Evaluated the model using:
-  - **Classification Report** (precision, recall, F1-score)
-  - **Log Loss** for probabilistic accuracy
-  - **Confusion Matrix** for class-wise performance
+## 2. Dataset and Preprocessing
+
+- Verified the dataset is balanced across obesity classes.
+- Applied Label Encoding to transform categorical variables.
+- Split the data into 80% training and 20% testing sets.
+- Scaled features using StandardScaler for normalization.
+
+---
+
+## 3. Model Training
+
+- Used Logistic Regression with the `newton-cg` solver.
+- Applied `class_weight='balanced'` to handle class imbalance.
+- Trained the model on the training dataset.
+- Evaluated the model with:
+  - Classification report (precision, recall, F1-score)
+  - Log Loss metric
+  - Confusion matrix for detailed error analysis
+
+---
+
+## 4. Feature Engineering - BMI Creation
+
+- Created a new feature: **BMI (Body Mass Index)** using the formula:  
+  \[
+  BMI = \frac{Weight\ (kg)}{(Height\ (m))^2}
+  \]
+- Incorporated BMI into the dataset to better capture obesity patterns.
+- Dropped the original Weight and Height columns to avoid redundancy and multicollinearity.
+
+---
+
+## 5. Feature Importance and Explainability
+
+- Applied SHAP (SHapley Additive exPlanations) to interpret feature impact.
+- Visualized feature importance using SHAP summary plots.
+
+---
+
+## 6. Model Saving and Deployment
+
+- Saved the trained model with `joblib`.
+- Developed a Streamlit web app that:
+  - Accepts user inputs interactively
+  - Predicts obesity level instantly
+  - Provides an intuitive UI for ease of use
+
+---
 
 ### **7. Model Saving**
 - Saved the trained model using **joblib** for later use in the Streamlit app.
