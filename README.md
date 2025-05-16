@@ -51,9 +51,7 @@ This project predicts obesity levels using machine learning, deploying the model
 ## 4. Feature Engineering - BMI Creation
 
 - Created a new feature: **BMI (Body Mass Index)** using the formula:  
-  \[
-  BMI = \frac{Weight\ (kg)}{(Height\ (m))^2}
-  \]
+  **BMI = Weight (kg) ÷ (Height (m))²**
 - Incorporated BMI into the dataset to better capture obesity patterns.
 - Dropped the original Weight and Height columns to avoid redundancy and multicollinearity.
 
