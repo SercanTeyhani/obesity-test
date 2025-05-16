@@ -61,7 +61,7 @@ This project predicts obesity levels using machine learning, deploying the model
 
 - Applied SHAP (SHapley Additive exPlanations) to interpret feature impact.
 - Visualized feature importance using SHAP summary plots.
-
+- Some features were removed based on their low importance to improve model simplicity and performance.
 ---
 ## 6. Model Retraining
 
