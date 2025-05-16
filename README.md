@@ -10,6 +10,7 @@ This project aims to predict obesity levels based on individuals' health metrics
 👉 [https://obesity-test.streamlit.app/](https://obesity-test.streamlit.app/)
 
 Read the full article on Medium:
+
 👉 https://medium.com/@sercanteyhani/predicting-obesity-with-machine-learning-from-raw-data-to-real-time-web-app-5e601f4267e5
 
 ---
