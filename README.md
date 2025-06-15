@@ -90,10 +90,10 @@ This project predicts obesity levels using machine learning, deploying the model
 - **Joblib**: Model persistence  
 - **Streamlit**: Web deployment interface
 
-## 📸 Ekran Görüntüleri
+## 📸 Visual Overview
 
-### Ana Sayfa
+### ### Primary Dashboard
 ![Ana Sayfa](screenshots/data-mentor-example.png)
 
-### Alternatif Görünüm
+### Runtime View
 ![Alternatif Görünüm](screenshots/data-mentor-example2.png)
