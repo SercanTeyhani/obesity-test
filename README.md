@@ -95,4 +95,4 @@ This project predicts obesity levels using machine learning, deploying the model
 ##📸 Project Screenshots
 
 ![Obesity Prediction 1](screenshots/obesity-1.png)  
-![Obesity Prediction 2](screenshots/obesity-2.png)
+      ![Obesity Prediction 2](screenshots/obesity-2.png)
