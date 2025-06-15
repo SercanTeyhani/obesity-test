@@ -89,3 +89,11 @@ This project predicts obesity levels using machine learning, deploying the model
 - **Scikit-learn**: Model building, scaling, evaluation, Confusion matrix & classification metrics, Feature importance analysis  
 - **Joblib**: Model persistence  
 - **Streamlit**: Web deployment interface
+
+## 📸 Ekran Görüntüleri
+
+### Ana Sayfa
+![Ana Sayfa](screenshots/data-mentor-example.png)
+
+### Alternatif Görünüm
+![Alternatif Görünüm](screenshots/data-mentor-example2.png)
